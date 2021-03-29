@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 0.5px;
+  font-family: "Lato", sans-serif;
+  color: #000000;
+}
+
+.article {
+  background: #FAFAFA;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+h3 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  padding-top: 63px;
+  padding-bottom: 63px;
+}
+
+.container-one {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.top {
+  position: absolute;
+  top: 63%;
+  left: 54%;
+  transform: translateX(-50%);
+  background-color: #FFFFFF;
+  z-index: 1;
+  border-radius: 5px;
+  padding: 33px 32px 25px 32px;
+  text-align: center;
+  width: 293px;
+  height: 198px;
+}
+
+.column {
+  padding-left: 30px;
+  position: relative;
+  margin-bottom: 229px;
+}
+
+.clasicImg {
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.title {
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.describe {
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 13px;
+}
+
+.readMore {
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+a {
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ED4C5C;
+  text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+  h3 {
+    text-align: left;
+  }
+
+  .container-one {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  h3 {
+    text-align: left;
+  }
+
+  .container-one {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .top {
+    position: absolute;
+    top: 52%;
+    left: 22%;
+    transform: translateX(-50%);
+    background-color: #FFFFFF;
+    z-index: 1;
+    border-radius: 5px;
+    padding: 33px 32px 25px 32px;
+    text-align: center;
+    width: 293px;
+    height: 198px;
+  }
+}

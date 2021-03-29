@@ -1,0 +1,20 @@
+$white: #FFFFFF;
+$black: #000000;
+$orange: #EE3D1B;
+$pink: #D52047;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 0.5px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+
+  }

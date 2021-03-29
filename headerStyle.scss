@@ -1,0 +1,209 @@
+$white: #FFFFFF;
+$black: #000000;
+$orange: #EE3D1B;
+$pink: #D52047;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 0.5px;
+    font-family: 'Lato', sans-serif;
+    color: $black;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%), url("./../gallery/Rectangle3.png") ;
+    background-size: cover;
+    background-position: center;
+    .container-header{
+        max-width: 1368px;
+        margin: 0 auto;
+        padding: 0.2rem 2rem;
+        .navbar{
+            min-height: 10vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .logo-header{
+                font-size: 2.25rem;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: $white;
+                font-weight: 700;
+                font-size: 18px;
+            }
+            .nav-links{
+                display: flex;
+                align-items: center;
+                margin-left: 33%;
+                li{
+                    list-style-type: none;
+                    a{
+                        text-decoration: none;
+                        color: $white;
+                        margin: 0 1.25rem;
+                        font-weight: 400;
+                        font-size: 14px;
+                        position: relative;
+                        &::after{
+                            position: absolute;
+                            content: '';
+                            background-color: $white;
+                            bottom: -5px;
+                            left: 0;
+                            width: 0%;
+                            height: 3px;
+                            transition: 0.5s ease all;
+                        }
+                        &:hover::after{
+                            width: 100%;
+                        }
+                    }
+                }
+
+            }
+            i{
+                display: none;
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+
+    }
+   .describe-header{
+    margin-top: 10%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    color: $white;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 86px;
+
+
+}   
+   .text{
+      text-align: center;
+  }
+     p{
+         color: $white;
+         font-size: 24px;
+     }
+
+
+   .input{
+     margin-left: 50%;
+     margin-top: 5%;
+    }
+    .button {
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      background-color: $white;
+      border: none;
+      width: 160px;
+      height: 50px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+      color: $pink;
+      border-radius: 0.5rem;
+  }     
+
+
+}
+
+@media(max-width: 900px){
+ header{
+    min-height: 100vh;
+    background-image: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%), url("./../gallery/Rectangle3.png") ;
+    background-size: cover;
+    background-position: center;
+    .container-header{
+        max-width: 1368px;
+        margin: 0 auto;
+        padding: 0.2rem 2rem;
+        .navbar{
+            min-height: 10vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .logo-header{
+                font-size: 2.25rem;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: $white;
+                font-weight: 700;
+                font-size: 18px;
+            }
+            .nav-links{
+                display: none;
+                align-items: center;
+                li{
+                    list-style-type: none;
+                    a{
+                        text-decoration: none;
+                        color: $white;
+                        margin: 0 1.25rem;
+                        font-weight: 400;
+                        font-size: 14px;
+                        position: relative;
+                        &::after{
+                            position: absolute;
+                            content: '';
+                            background-color: $white;
+                            bottom: -5px;
+                            left: 0;
+                            width: 0%;
+                            height: 3px;
+                            transition: 0.5s ease all;
+                        }
+                        &:hover::after{
+                            width: 100%;
+                        }
+                    }
+                }
+
+            }
+               i{
+                display: block;
+                font-size: 2rem;
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+
+    }
+       
+    .describe-header{
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+        color: $white;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: center;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 86px;
+    }
+}
+
+         
+
+
+
+
+}
+
+

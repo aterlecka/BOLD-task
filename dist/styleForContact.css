@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 0.5px;
+  font-family: "Lato", sans-serif;
+  color: #000000;
+}
+
+.container-contact {
+  display: flex;
+}
+
+.describe {
+  flex: 0 0 57%;
+}
+
+h5 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 43px;
+  text-align: left;
+  padding-top: 117px;
+}
+
+.text-contact {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: justify;
+  margin-top: 7%;
+}
+
+.forms {
+  flex-direction: column;
+  flex: 0 0 50%;
+}
+
+.firstAndSecond {
+  display: flex;
+  padding-top: 117px;
+  padding-bottom: 3%;
+}
+
+.first {
+  flex-direction: column;
+  border: none;
+  background: #FFFFFF;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  padding: 19px 130px 20px 5px;
+}
+
+.second {
+  flex-direction: column;
+  border: none;
+  background: #FFFFFF;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  padding: 19px 130px 20px 5px;
+  margin-left: 1.5rem;
+}
+
+.third {
+  border: none;
+  background: #FFFFFF;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  padding: 21px 430px 20px 5px;
+  margin-bottom: 3%;
+}
+
+.service {
+  border: none;
+  background: #FFFFFF;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  padding: 21px 461px 20px 5px;
+  margin-bottom: 3%;
+  color: rgba(19, 39, 67, 0.75);
+}
+
+.buttonSub {
+  position: absolute;
+  padding: 17px 34px 16px 34px;
+  left: 826px;
+  background: #ED4C5C;
+  border: 1.5px solid #ED4C5C;
+  box-sizing: border-box;
+  border-radius: 6px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 1200px) {
+  .container-contact {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+  }
+
+  .buttonSub {
+    position: absolute;
+    padding: 17px 34px 16px 34px;
+    left: 126px;
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #FFFFFF;
+  }
+}
+@media (max-width: 900px) {
+  .container-contact {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+  }
+
+  .buttonSub {
+    position: absolute;
+    padding: 17px 34px 16px 34px;
+    left: 126px;
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #FFFFFF;
+  }
+}
